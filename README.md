@@ -16,38 +16,40 @@ Go wrapper for the Pushover API.
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/gridfinity/gpushover)](https://www.tickgit.com/browse?repo=github.com/gridfinity/gpushover)
 [![DeepSource](https://deepsource.io/gh/gridfinity/gpushover.svg/?label=active+issues)](https://deepsource.io/gh/gridfinty/gpushover/?ref=repository-badge)
 
--------------------
+---
 
 ## Availability
 
 ### Go Modules
 
-* [go.gridfinity.dev](https://go.gridfinity.dev/gpushover)
-* [go.gridfinity.com](https://go.gridfinity.com)
+- [go.gridfinity.dev](https://go.gridfinity.dev/gpushover)
+- [go.gridfinity.com](https://go.gridfinity.com)
 
 ### Source Code
 
-* [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover)
-* [SourceHut](https://sr.ht/~trn/gpushover)
-* [GitHub](https://github.com/gridfinity/gpushover)
+- [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover)
+- [SourceHut](https://sr.ht/~trn/gpushover)
+- [GitHub](https://github.com/gridfinity/gpushover)
 
 ## Issue Tracking
 
-* [Gridfinity GitLab Issues](https://gitlab.gridfinity.com/go/gpushover/-/issues)
+- [Gridfinity GitLab Issues](https://gitlab.gridfinity.com/go/gpushover/-/issues)
 
 ## Security Policy
 
-* [Security Policy and Vulnerability Reporting](https://gitlab.gridfinity.com.com/go/gpushover/blob/master/SECURITY.md)
+- [Security Policy and Vulnerability Reporting](https://gitlab.gridfinity.com.com/go/gpushover/blob/master/SECURITY.md)
 
 ## Original Authors
 
-* [José Manuel Díez](https://github.com/jdiez17/go-pushover). \<[j.diezlopez@protonmail.ch](mailto:j.diezlopez@protonmail.ch)\>
-* [Damian Gryski](https://github.com/dgryski). \<[damian@gryski.com](mailto:damian@gryski.com)\>
-* [Adam Lazzarato](https://github.com/adamlazz).
+- [José Manuel Díez](https://github.com/jdiez17/go-pushover).
+  \<[j.diezlopez@protonmail.ch](mailto:j.diezlopez@protonmail.ch)\>
+- [Damian Gryski](https://github.com/dgryski).
+  \<[damian@gryski.com](mailto:damian@gryski.com)\>
+- [Adam Lazzarato](https://github.com/adamlazz).
 
 ## License
 
-* [The MIT License](https://tldrlegal.com/license/mit-license)
+- [The MIT License](https://tldrlegal.com/license/mit-license)
 
 ## Usage Example
 
