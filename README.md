@@ -38,7 +38,7 @@ Go wrapper for the Pushover API.
 
 ## Security Policy
 
-- [Security Policy and Vulnerability Reporting](https://gitlab.gridfinity.com.com/go/gpushover/blob/master/SECURITY.md)
+- [Security Policy and Vulnerability Reporting](https://gitlab.gridfinity.com/go/gpushover/blob/master/SECURITY.md)
 
 ## Original Authors
 
