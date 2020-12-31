@@ -51,8 +51,7 @@ Go wrapper for the Pushover API.
 ## License
 
 - [The MIT License](https://tldrlegal.com/license/mit-license)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover?ref=badge_large)
+- [![FOSSAStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover?ref=badge_small)
 
 ## Usage Example
 
