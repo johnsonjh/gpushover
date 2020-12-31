@@ -1,10 +1,9 @@
 # gpushover
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover?ref=badge_shield)
-
 
 Go wrapper for the Pushover API.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gridfinity/gpushover/blob/master/LICENSE)
+[![FOSSAStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fgpushover?ref=badge_shield)
 [![GoVersion](https://img.shields.io/github/go-mod/go-version/gridfinity/gpushover.svg)](https://github.com/gridfinity/gpushover/blob/master/go.mod)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/gridfinity/gpushover)](https://pkg.go.dev/github.com/gridfinity/gpushover)
 [![GoReportCard](https://goreportcard.com/badge/github.com/gridfinity/gpushover)](https://goreportcard.com/report/github.com/gridfinity/gpushover)
