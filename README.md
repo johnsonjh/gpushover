@@ -86,7 +86,7 @@ func main() {
     if err != nil {
         if err != gp.PushoverError {
                                      panic(
-                                            err,
+                                           err,
                                           )
         } else {
             fmt.Println(
