@@ -22,11 +22,14 @@ THE SOFTWARE.
 
 ## Report a security vulnerability
 
-- Create a new issue at [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover/-/issues)
+- Create a new issue at
+  [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover/-/issues)
 
-  - Check "_This issue is confidential and should only be visible to team members with at least Reporter access._"
+  - Check "_This issue is confidential and should only be visible to team
+    members with at least Reporter access._"
 
-  - Or, send a **PGP-encrypted** email to \<[jeff@gridfinity.com](mailto:jeff@gridfinity.com)\>
+  - Or, send a **PGP-encrypted** email to
+    \<[jeff@gridfinity.com](mailto:jeff@gridfinity.com)\>
 
 ```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
