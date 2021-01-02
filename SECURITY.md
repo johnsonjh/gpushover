@@ -2,11 +2,11 @@
 
 ## Supported releases
 
-* Only the most recent current release is ***SUPPORTED***.**☨**
+- Only the most recent current release is **_SUPPORTED_**.**☨**
 
-    [![GitHubRelease](https://img.shields.io/github/release/gridfinity/gpushover.svg)](https://github.com/gridfinity/gpushover/releases/)
+  [![GitHubRelease](https://img.shields.io/github/release/gridfinity/gpushover.svg)](https://github.com/gridfinity/gpushover/releases/)
 
-* **☨** Support is offered on a **best-effort** basis **ONLY**.
+- **☨** Support is offered on a **best-effort** basis **ONLY**.
 
 ```text
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -18,14 +18,18 @@ OUT OF, OR IN CONNECTION WITH THE SOFTWARE, OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-* Pre-release versions and past releases are ***NOT SUPPORTED***.
+- Pre-release versions and past releases are **_NOT SUPPORTED_**.
 
 ## Report a security vulnerability
 
-* Create a new issue at [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover/-/issues)
-  * Check "*This issue is confidential and should only be visible to team members with at least Reporter access.*"
+- Create a new issue at
+  [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover/-/issues)
 
-  * Or, send a **PGP-encrypted** email to \<[jeff@gridfinity.com](mailto:jeff@gridfinity.com)\>
+  - Check "_This issue is confidential and should only be visible to team
+    members with at least Reporter access._"
+
+  - Or, send a **PGP-encrypted** email to
+    \<[jeff@gridfinity.com](mailto:jeff@gridfinity.com)\>
 
 ```text
 -----BEGIN PGP PUBLIC KEY BLOCK-----
