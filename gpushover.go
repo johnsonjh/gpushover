@@ -10,7 +10,6 @@
 //
 // All use of this code is governed by the MIT license.
 // The complete license is available in the LICENSE file.
-
 package gpushover // import "go.gridfinity.dev/gpushover"
 
 import (
@@ -27,21 +26,25 @@ import (
 
 const endpoint string = "https://api.pushover.net/1/messages.json"
 
-var PError = errors.New("PError")
+// ErrorPushover is the generic Pushover error
+var ErrorPushover = errors.New("ErrorPushover")
 
+// P defines the Pushover configuration
 type P struct {
 	UserKey, AppKey string
 	Client          *http.Client
 }
 
+// Response defines the Pushover API response
 type Response struct {
 	Status  int
 	Errors  []interface{}
 	Message string
 }
 
+// Notification defines the Pushover API request
 type Notification struct {
-	Message, Title, Url, UrlTitle, Sound, Device, Callback string
+	Message, Title, URL, URLTitle, Sound, Device, Callback string
 	Timestamp                                              time.Time
 	Priority, Retry, Expire                                int
 }
@@ -52,8 +55,8 @@ func (n Notification) toValues(p P) url.Values {
 		"token":     {p.AppKey},
 		"message":   {n.Message},
 		"title":     {n.Title},
-		"url":       {n.Url},
-		"url_title": {n.UrlTitle},
+		"url":       {n.URL},
+		"url_title": {n.URLTitle},
 		"sound":     {n.Sound},
 		"device":    {n.Device},
 		"timestamp": {fmt.Sprintf("%d", n.Timestamp.Unix())},
@@ -64,6 +67,7 @@ func (n Notification) toValues(p P) url.Values {
 	}
 }
 
+// Notify sends the Pushover notification
 func (p P) Notify(n Notification) (*Response, error) {
 	client := p.Client
 	if client == nil {
@@ -90,7 +94,7 @@ func (p P) Notify(n Notification) (*Response, error) {
 	if err != nil {
 		return nil, err
 	}
-	return response, PError
+	return response, ErrorPushover
 }
 
 func init() {
