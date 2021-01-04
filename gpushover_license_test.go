@@ -1,9 +1,9 @@
 // Package gpushover is a Go wrapper for Pushover's notification API.
 //
-// Copyright (c) 2020 José Manuel Díez. <j.diezlopez@protonmail.ch>
-// Copyright (c) 2020 Gridfinity, LLC. <admin@gridfinity.com>
+// Copyright (c) 2021 José Manuel Díez. <j.diezlopez@protonmail.ch>
+// Copyright (c) 2021 Gridfinity, LLC. <admin@gridfinity.com>
 // Copyright (c) 2014 Damian Gryski. <damian@gryski.com>
-// Copyright (c) 2020 Jeffrey H. Johnson. <jeff@gridfinity.com>
+// Copyright (c) 2021 Jeffrey H. Johnson. <jeff@gridfinity.com>
 // Copyright (c) 2014 Adam Lazzarato.
 //
 // All Rights reserved.
