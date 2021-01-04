@@ -83,8 +83,8 @@ linux job:
     - dnf upgrade --refresh -y
     - dnf groupinstall "Development Tools" -y
     - dnf install epel-release centos-release-scl centos-release-scl-rh -y
-    - dnf install ccache pv valgrind graphviz clang zsh scl-utils devtoolset-9 -y
     - dnf groupupdate base -y
+    - dnf install ccache zsh scl-utils devtoolset-9 -y
     - source /opt/rh/devtoolset-9/enable
     - dnf clean all -y
     - | 
@@ -95,7 +95,7 @@ linux job:
     - go env -w GO111MODULE=on && export GO111MODULE=on
     - export GOPROXY="https://proxy.golang.org,direct" && go env -w GOPROXY="${GOPROXY:?}"
     - *scriptGoVersion
-    - go clean -modcache -cache -r -x
+    - go clean -modcache -cache -r
     - *scriptGitPre
     - CGO_ENABLED=0 go build -v -a -trimpath $(go list ./... | grep -v test | sort | uniq)
     - | 
@@ -127,7 +127,7 @@ macos job:
     - export GOCACHE="${NEW_GOCACHE:?}" && go env -w GOCACHE="${NEW_GOCACHE:?}"
     - export GOMODCACHE="${NEW_GOMODCACHE:?}" && go env -w GOMODCACHE="${NEW_GOMODCACHE:?}"
     - *scriptGoVersion
-    - go clean -testcache -modcache -cache -r -x
+    - go clean -testcache -modcache -cache -r
     - *scriptGitPre
     - CGO_ENABLED=0 go build -v -a -trimpath $(go list ./... | grep -v test | sort | uniq)
     - | 
