@@ -29,7 +29,6 @@ Go wrapper for the Pushover API.
 ### Source Code
 
 - [Gridfinity GitLab](https://gitlab.gridfinity.com/go/gpushover)
-- [SourceHut](https://sr.ht/~trn/gpushover)
 - [GitHub](https://github.com/gridfinity/gpushover)
 
 ## Issue Tracking
