@@ -1,15 +1,16 @@
 // Package gpushover is a Go wrapper for Pushover's notification API.
 //
-// Copyright (c) 2021 José Manuel Díez. <j.diezlopez@protonmail.ch>
-// Copyright (c) 2021 Gridfinity, LLC. <admin@gridfinity.com>
-// Copyright (c) 2014 Damian Gryski. <damian@gryski.com>
-// Copyright (c) 2014 Adam Lazzarato.
+// Copyright © 2021 Jeffrey H. Johnson. <trnsz@pobox.com>
+// Copyright © 2021 José Manuel Díez. <j.diezlopez@protonmail.ch>
+// Copyright © 2021 Gridfinity, LLC. <admin@gridfinity.com>
+// Copyright © 2014 Damian Gryski. <damian@gryski.com>
+// Copyright © 2014 Adam Lazzarato.
 //
 // All Rights reserved.
 //
 // All use of this code is governed by the MIT license.
 // The complete license is available in the LICENSE file.
-package gpushover // import "go.gridfinity.dev/gpushover"
+package gpushover
 
 import (
 	"errors"

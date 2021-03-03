@@ -1,9 +1,10 @@
 // Package gpushover is a Go wrapper for Pushover's notification API.
 //
-// Copyright (c) 2021 José Manuel Díez. <j.diezlopez@protonmail.ch>
-// Copyright (c) 2021 Gridfinity, LLC. <admin@gridfinity.com>
-// Copyright (c) 2014 Damian Gryski. <damian@gryski.com>
-// Copyright (c) 2014 Adam Lazzarato.
+// Copyright © 2021 Jeffrey H. Johnson. <trnsz@pobox.com>
+// Copyright © 2021 José Manuel Díez. <j.diezlopez@protonmail.ch>
+// Copyright © 2021 Gridfinity, LLC. <admin@gridfinity.com>
+// Copyright © 2014 Damian Gryski. <damian@gryski.com>
+// Copyright © 2014 Adam Lazzarato.
 //
 // All Rights reserved.
 //
@@ -16,7 +17,7 @@ import (
 	"fmt"
 	"testing"
 
-	u "go.gridfinity.dev/leaktestfe"
+	u "github.com/johnsonjh/leaktestfe"
 	licn "go4.org/legal"
 )
 
