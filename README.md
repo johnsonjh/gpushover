@@ -1,8 +1,19 @@
 # gpushover
 
+----
+
 Go wrapper for the Pushover API.
 
----
+----
+
+## Availability
+
+- [GitHub](https://github.com/johnsonjh/gpushover)
+- [GitLab](https://gitlab.com/johnsonjh/gpushover)
+- [SourceHut](https://sr.ht/~trn/gpushover)
+- [NotABug](https://notabug.org/trn/gpushover)
+
+----
 
 ## Original Authors
 
@@ -12,6 +23,10 @@ Go wrapper for the Pushover API.
   \<[damian@gryski.com](mailto:damian@gryski.com)\>
 - [Adam Lazzarato](https://github.com/adamlazz)
 
+----
+
 ## License
 
 - [The MIT License](https://tldrlegal.com/license/mit-license)
+
+----
