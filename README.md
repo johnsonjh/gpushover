@@ -1,5 +1,8 @@
 # gpushover
 
+[![GRC](https://goreportcard.com/badge/github.com/johnsonjh/gpushover)](https://goreportcard.com/badge/github.com/johnsonjh/gpushover)
+[![Maintainability](https://api.codeclimate.com/v1/badges/24e5c66aab347d43b0b4/maintainability)](https://codeclimate.com/github/johnsonjh/gpushover/maintainability)
+
 ---
 
 Go wrapper for the Pushover API.
