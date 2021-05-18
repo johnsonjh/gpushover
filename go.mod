@@ -3,7 +3,7 @@ module github.com/johnsonjh/gpushover
 go 1.17
 
 require (
-	github.com/johnsonjh/leaktestfe v0.0.0-20210514234952-29af0b6aaf93
+	github.com/johnsonjh/leaktestfe v0.0.0-20210518205409-7828c0e1b51e
 	github.com/json-iterator/go v1.1.11
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2-0.20210109003243-333559e1834b // indirect
