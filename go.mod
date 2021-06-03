@@ -10,5 +10,5 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	go.uber.org/goleak v1.1.11-0.20210525221708-d36f3aede898
 	go4.org v0.0.0-20201209231011-d4a079459e60
-	golang.org/x/tools v0.1.3-0.20210529002143-6123e5fbf24b // indirect
+	golang.org/x/tools v0.1.3-0.20210603180308-8f2cf6ccfcb4 // indirect
 )
