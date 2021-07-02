@@ -9,4 +9,5 @@ require (
 	github.com/modern-go/reflect2 v1.0.2-0.20210109003243-333559e1834b
 	go.uber.org/goleak v1.1.11-0.20210525221708-d36f3aede898
 	go4.org v0.0.0-20201209231011-d4a079459e60
+	golang.org/x/tools v0.1.5-0.20210701083923-20dafe5d6055
 )
